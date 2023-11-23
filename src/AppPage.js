@@ -5,7 +5,7 @@ function App() {
   const [savedData, setSavedData] = useState([]);
 
   const fetchData = () => {
-    fetch("http://127.0.0.1:8000/api/retrieve/")
+    fetch("https://updater-67vk.onrender.com/api/retrieve/")
       .then((response) => response.json())
       .then((data) => {
         // Reverse the order of the data array to display the newest entry at the top

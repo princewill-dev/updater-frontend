@@ -30,7 +30,7 @@ function FormPage() {
 
     try {
       // Make a real API call using axios
-      await axios.post("http://127.0.0.1:8000/api/save/", {
+      await axios.post("https://updater-67vk.onrender.com/api/save/", {
         text: inputValue,
         ip_address: ipAddress,
       });
