@@ -1,0 +1,43 @@
+/* FormPage.css */
+.FormPage {
+    text-align: center;
+  }
+  
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .form {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px; /* Add padding for spacing inside the "card" */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow for a card-like appearance */
+    background-color: white; /* Optional: Set a background color for the "card" */
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input {
+    width: calc(100% - 16px); /* Reduce width and consider padding on both sides */
+    padding: 8px;
+    margin-bottom: 16px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
